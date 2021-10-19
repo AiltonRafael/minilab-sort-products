@@ -41,3 +41,6 @@ function filterProducts(infoString) {
 filterProducts('tech')
 
 // Declare sua funçao aqui. Nao se esqueça de invocar a função para conseguir testar!
+
+
+const cores = ['azul', 'vermelho', 'laranja'];
