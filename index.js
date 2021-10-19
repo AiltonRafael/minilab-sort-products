@@ -28,11 +28,12 @@ let sortInfo = []
 
 function filterProducts(infoString) {
   products.forEach(element => 
-    element.tags.forEach(tags => {if(tags === infoString) {
-      sortInfo.push(element)
-    }
-      })
-        )
+    element.tags.forEach(tags => {
+      if(tags === infoString) {
+        sortInfo.push(element)
+      }
+    })
+  )
 
   console.log(sortInfo)
 }
