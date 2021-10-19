@@ -23,8 +23,6 @@ const products = [
   },
 ];
 
-// Declare sua funçao aqui. Nao se esqueça de invocar a função para conseguir testar!
-
 
 let sortInfo = []
 
@@ -40,3 +38,5 @@ function filterProducts(infoString) {
 }
 
 filterProducts('tech')
+
+// Declare sua funçao aqui. Nao se esqueça de invocar a função para conseguir testar!
